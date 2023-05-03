@@ -2,7 +2,7 @@
 import './App.css';
 import React from "react";
 import ReactEcharts from "echarts-for-react";
-import jsonWineData from '../src/WineDataSet.json';
+import jsonWineData from '../src/WineDataSet.json';                                          // Wine Data Set used for data visualisation
 
 
 
@@ -10,19 +10,19 @@ function ScatterChart() {
 
 
 
-    const x = 178;              //creating a 2d array which will be used for dataset in plotting 
+    const x = 178;                                                                         //creating a 2d array which will be used for dataset in plotting 
     const y = 0;
-    let Dataset = new Array(x);   // create an empty array of length x
+    let Dataset = new Array(x);                                                            // create an empty array of length x
     for (var i = 0; i < x; i++) {
         Dataset[i] = new Array(y);
     }
 
     for (var k = 0; k < jsonWineData.length; k++) {
-        Dataset[k].push(jsonWineData[k]['Color intensity'], jsonWineData[k]['Hue'])
+        Dataset[k].push(jsonWineData[k]['Color intensity'], jsonWineData[k]['Hue']);        // Dataset is used to plot Hue and color intensity
     }
 
 
-    const optionforscatter = {
+    const optionforscatter = {                                                               //Used to set scatter plot 
         tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -30,7 +30,7 @@ function ScatterChart() {
             }
         },
         grid: { top: 10, right: 190, bottom: 70, left: 60 },
-        xAxis: [
+        xAxis: [                                                                            //color intensity on x axis
             {
                 type: 'value',
                 name: 'Color Intensity',
@@ -40,7 +40,7 @@ function ScatterChart() {
                 max: 5
             }
         ],
-        yAxis: [
+        yAxis: [                                                                              //Hue values on y axis
             {
                 type: 'value',
                 name: 'Hue',
@@ -57,7 +57,7 @@ function ScatterChart() {
         series: [
             {
                 type: 'scatter',
-                symbolSize: 8,
+                symbolSize: 8,                                                               //sets size of dots on plot 
             }
         ]
     };
@@ -66,10 +66,10 @@ function ScatterChart() {
 
         <>
 
-            <div className='ScatterChartFont'>
+            <div className='ScatterChartFont'>                                                {/*css to manage font size */}
                 <p>Scatter Plot</p>
             </div>
-            <div className='ScatterChart'>
+            <div className='ScatterChart'>                                                   {/*css to manage scatter plot properties */}
                 <ReactEcharts
                     option={optionforscatter} />
             </div>
