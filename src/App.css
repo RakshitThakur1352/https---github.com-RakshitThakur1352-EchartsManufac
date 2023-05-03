@@ -2,45 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.contains {
-  display: flex;
-}
 
 .barChartFont {
   margin-left: 30px;
@@ -139,15 +100,15 @@
 
 @media screen and (max-width :768px) {
   .barChart {
-    width: 90%;
-    height: 100%;
+    width: 100%;
+    height: 120%;
 
   }
 
   .ScatterChart {
     /* grid: 1000px 0px 0px 0px; */
-    width: 90%;
-    height: 100%;
+    width: 100%;
+    height: 10px;
   }
 }
 
@@ -240,7 +201,7 @@
 
 
 
-@media screen and (max-width >374px) {
+@media screen and (max-width : 375px) {
 
   .barChartFont {
     font-size: small;
@@ -254,8 +215,8 @@
 
   .barChart {
 
-    width: 240%;
-    height: 100%;
+    width: 24000000990%;
+    height: 10000%;
 
   }
 
@@ -265,27 +226,30 @@
   }
 }
 
-/* 
-@media (width < 374px){
-  
-.barChartFont{
-  font-size: 20px;
-}
 
 
-.ScatterChartFont{
-  margin-top: 2%;
-  font-size: 20px;
-}
-  .barChart{
-    width: 150%;
-    height: 100%;
-  
+
+@media screen and (width < 320px) {
+
+  .barChartFont {
+    font-size: small;
+    margin-top: 0px;
   }
 
-  .ScatterChart{
-    width: 140%;
+  .ScatterChartFont {
+    font-size: small;
+    margin-top: 0px;
+  }
+
+  .barChart {
+
+    width: 180%;
     height: 100%;
-   }
+
+  }
+
+  .ScatterChart {
+    width: 180%;
+    height: 100%;
+  }
 }
- */
