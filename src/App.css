@@ -32,135 +32,133 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.contains{
+.contains {
   display: flex;
 }
 
-.barChartFont{
+.barChartFont {
   margin-left: 30px;
   font-style: italic;
   font-size: 30px;
 }
 
 
-.ScatterChartFont{
+.ScatterChartFont {
   margin-top: 2%;
   margin-left: 30px;
   font-style: italic;
   font-size: 30px;
 }
-.barChart{
+
+.barChart {
   margin-left: 2%;
   margin-right: 2%;
-  
+
 }
 
-.ScatterChart{
+.ScatterChart {
   margin-left: 2%;
   margin-right: 2%;
 
- 
+
 }
 
 
 
 
 /*****************DESKTOP*******************/
-@media screen and (max-width: 1491px){
-  .barChart{
+@media screen and (max-width: 1491px) {
+  .barChart {
     width: 90%;
 
   }
 
-  .ScatterChart{
+  .ScatterChart {
     width: 90%;
   }
 
 }
 
-@media screen and (max-width: 1024px){
-  .barChartFont{
+@media screen and (max-width: 1024px) {
+  .barChartFont {
     margin-top: 100px;
   }
 
-  .ScatterChartFont{
+  .ScatterChartFont {
     margin-top: 100px;
   }
-  .barChart{
+
+  .barChart {
     font-size: 40px;
     width: 100%;
     height: 100%;
 
   }
 
-  .ScatterChart{
+  .ScatterChart {
     font-size: 40px;
     width: 110%;
     /* height: 10%; */
   }
 
 }
-@media screen and (max-width: 1401px){
 
-}
-@media screen and (max-width: 1282px){
-  
-}
+@media screen and (max-width: 1401px) {}
+
+@media screen and (max-width: 1282px) {}
+
 /*****************DESKTOP*******************/
 
 /******************TABLET*******************/
-@media screen and (max-width: 1005px){
-  
-}
-@media screen and (max-width: 975px){
-  
-}
-@media screen and (max-width: 961px){
- 
-}
-@media screen and (max-width: 926px){
-  
-}
-@media screen and (max-width: 847px){
-  .barChart{
+@media screen and (max-width: 1005px) {}
+
+@media screen and (max-width: 975px) {}
+
+@media screen and (max-width: 961px) {}
+
+@media screen and (max-width: 926px) {}
+
+@media screen and (max-width: 847px) {
+  .barChart {
     width: 90%;
     height: 100%;
 
   }
 
-  .ScatterChart{
+  .ScatterChart {
     width: 90%;
     height: 100%;
   }
 }
 
-@media screen  and (max-width :768px){
-  .barChart{
+@media screen and (max-width :768px) {
+  .barChart {
     width: 90%;
     height: 100%;
 
   }
 
-  .ScatterChart{
+  .ScatterChart {
     /* grid: 1000px 0px 0px 0px; */
     width: 90%;
     height: 100%;
   }
 }
 
-@media screen and (max-width: 673px){
-  .barChart{
+@media screen and (max-width: 673px) {
+  .barChart {
     width: 90%;
     height: 100%;
 
   }
 
-  .ScatterChart{
+  .ScatterChart {
     width: 90%;
     height: 100%;
   }
@@ -173,65 +171,68 @@
 /******************MOBILE*******************/
 
 
-@media screen and (max-width: 628px){
-  .barChart{
+@media screen and (max-width: 628px) {
+  .barChart {
     width: 90%;
     height: 100%;
 
   }
 
-  .ScatterChart{
+  .ScatterChart {
     width: 90%;
     height: 100%;
   }
-} 
-@media screen and (max-width: 575px){
-  .barChart{
+}
+
+@media screen and (max-width: 575px) {
+  .barChart {
     width: 90%;
     height: 100%;
 
   }
 
-  .ScatterChart{
+  .ScatterChart {
     width: 90%;
     height: 100%;
   }
 
 }
-@media screen and (max-width: 412px){
-  .barChart{
+
+@media screen and (max-width: 412px) {
+  .barChart {
     width: 90%;
     height: 100%;
 
   }
 
-  .ScatterChart{
+  .ScatterChart {
     width: 90%;
     height: 100%;
   }
 }
+
 /******************MOBILE*******************/
 
-@media screen and (max-width: 320px){
-  
-  .barChartFont{
+@media screen and (max-width: 320px) {
+
+  .barChartFont {
     font-size: small;
     margin-top: 0px;
   }
 
-  .ScatterChartFont{
+  .ScatterChartFont {
     font-size: small;
     margin-top: 0px;
   }
 
-  .barChart{
-    
+  .barChart {
+
     width: 140%;
     height: 100%;
 
   }
 
-  .ScatterChart{
+  .ScatterChart {
     width: 140%;
     height: 100%;
   }
@@ -239,15 +240,27 @@
 
 
 
-@media screen and (max-width: 375px){
-  .barChart{
-    width: 150%;
+@media screen and (max-width >374px) {
+
+  .barChartFont {
+    font-size: small;
+    margin-top: 0px;
+  }
+
+  .ScatterChartFont {
+    font-size: small;
+    margin-top: 0px;
+  }
+
+  .barChart {
+
+    width: 240%;
     height: 100%;
 
   }
 
-  .ScatterChart{
-    width: 150%;
+  .ScatterChart {
+    width: 240%;
     height: 100%;
   }
 }
