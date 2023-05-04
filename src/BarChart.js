@@ -55,7 +55,7 @@ function BarChart() {
                 type: 'cross'
             }
         },
-        grid: { top: 40, right: 200, bottom: 50, left: 70 },            //size of chart
+        grid: { top: 10, right: 250, bottom: 100, left: 70 },            //size of chart
 
         xAxis: [                                                        //Alcohol on x axis
             {

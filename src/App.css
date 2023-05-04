@@ -11,7 +11,7 @@
 
 
 .ScatterChartFont {
-  margin-top: 2%;
+  margin-top: 0px;
   margin-left: 30px;
   font-style: italic;
   font-size: 30px;
@@ -57,14 +57,14 @@
 
   .barChart {
     font-size: 40px;
-    width: 100%;
+    width: 90%;
     height: 100%;
 
   }
 
   .ScatterChart {
     font-size: 40px;
-    width: 110%;
+    width: 90%;
     /* height: 10%; */
   }
 
@@ -159,7 +159,7 @@
 
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
   .barChart {
     width: 90%;
     height: 100%;
@@ -174,7 +174,7 @@
 
 /******************MOBILE*******************/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 384px) {
 
   .barChartFont {
     font-size: small;
@@ -188,40 +188,41 @@
 
   .barChart {
 
-    width: 140%;
+    width: 160%;
     height: 100%;
 
   }
 
   .ScatterChart {
-    width: 140%;
+    width: 150%;
     height: 100%;
   }
 }
 
 
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 746px) {
 
   .barChartFont {
-    font-size: small;
-    margin-top: 0px;
+    font-size: medium;
+    margin-top: 40px;
   }
 
   .ScatterChartFont {
-    font-size: small;
+    margin-top: 20px;
+    font-size: medium;
     margin-top: 0px;
   }
 
   .barChart {
 
-    width: 24000000990%;
-    height: 10000%;
+    width: 120%;
+    height: 100%;
 
   }
 
   .ScatterChart {
-    width: 240%;
+    width: 120%;
     height: 100%;
   }
 }

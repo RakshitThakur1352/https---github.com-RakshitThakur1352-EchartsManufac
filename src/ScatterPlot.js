@@ -29,7 +29,7 @@ function ScatterChart() {
                 type: 'cross'
             }
         },
-        grid: { top: 10, right: 190, bottom: 70, left: 60 },
+        grid: { top: 30, right: 190, bottom: 100, left: 60 },
         xAxis: [                                                                            //color intensity on x axis
             {
                 type: 'value',
